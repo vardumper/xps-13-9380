@@ -6,11 +6,20 @@ Experimental EFI Folder for installing macOS 13.2.1 Ventura on Dell XPS 13 9380 
 
 ## Not working (yet)
 
-* Audio
+- Audio Jack
+- Thunderbolt (DP somewhat buggy)
+- SD Card Reader (not really needed)
+- Bluetooth (since theres no kext for Intel Killer 1435-S)
 
 ## Working
 
-* Wlan via Wifi Dongle 
-* Camera
-* Thunderbolt
-* Function keys
+- Audio
+- Mic
+- Wifi via Dongle (tested with Archer T3U and T2U nano)
+- Camera
+- Thunderbolt
+- Function keys
+
+## Post-Install Steps
+
+- Remap some keys to your needs using Karabiner

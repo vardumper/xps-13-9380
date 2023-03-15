@@ -1,0 +1,367 @@
+{
+  "title": "Dell XPS 13 9380 Key Mappings",
+  "rules": [
+    {
+      "description": "Map @ symbol to [Alt] + [Q]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "l",
+              "modifiers": ["right_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "l",
+              "modifiers": ["left_option"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+
+    {
+      "description": "Map tilde to [Alt] + [+]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "n",
+              "modifiers": ["right_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "l",
+              "modifiers": ["left_option"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Map pipe to [Alt] + [<]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "grave_accent_and_tilde",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7",
+              "modifiers": ["right_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "grave_accent_and_tilde",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7",
+              "modifiers": ["left_option"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Map brightness buttons to [Strg] + [arrow up/down]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "up_arrow",
+            "modifiers": {
+              "mandatory": ["left_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f15"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "up_arrow",
+            "modifiers": {
+              "mandatory": ["right_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f15"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "down_arrow",
+            "modifiers": {
+              "mandatory": ["left_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f14"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "down_arrow",
+            "modifiers": {
+              "mandatory": ["right_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f14"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Map brackets {} and []",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "7",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "7",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "5",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "6",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "8",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "5",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "6",
+              "modifiers": ["right_option", "left_option"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Map backslash to [Alt] + [ß]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7",
+              "modifiers": ["right_option", "right_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "7",
+              "modifiers": ["right_option", "right_shift"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Map long dash to [Alt] + [-]",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "slash",
+              "modifiers": ["right_option", "right_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": ["left_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "slash",
+              "modifiers": ["right_option", "right_shift"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
