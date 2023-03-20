@@ -8,10 +8,10 @@ Experimental EFI Folder for installing macOS 13.2.1 Ventura on Dell XPS 13 9380 
 
 - Fingerprint reader (not really needed)
 - Audio Jack
-- Display Port somewhat buggy
 
 ## Working
 
+- Display Port
 - SD Card Reader
 - Bluetooth (tested successfully with Logitech MX3 Master, Airpods Pro not working)
 - Audio
