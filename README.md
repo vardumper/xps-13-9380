@@ -1,6 +1,8 @@
 # xps-13-9380
 
-Stable EFI Folder for installing macOS 13.3 Ventura on Dell XPS 13 9380 (i7-8656U).
+Stable EFI Folder for installing macOS Ventura on Dell XPS 13 9380 (i7-8656U).
+Tested successfully with Ventura 13.2.1 up to 13.4.1
+I use OCAuxiliary Tools to keep OC and kexts updated.
 
 ![preview](https://github.com/vardumper/xps-13-9380/blob/main/preview.png?raw=true)
 
