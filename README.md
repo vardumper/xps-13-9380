@@ -1,23 +1,24 @@
 # xps-13-9380
 
 Stable EFI Folder for installing macOS Ventura and Sonoma on Dell XPS 13 9380 (i7-8656U).
-Tested successfully with Ventura 13.2.1 and up as well as Sonoma up to 14.5
-I use OCAuxiliary Tools to keep OC and kexts updated.
+Tested successfully with Ventura 13.+ and up as well as Sonoma up to 14.5
+I use OCAuxiliary Tools to keep OpenCOre (currently 1.0) and kexts updated.
 
-![preview](https://github.com/vardumper/xps-13-9380/blob/main/preview.png?raw=true)
+![preview](https://github.com/vardumper/xps-13-9380/blob/main/preview-sonoma.png?raw=true)
 
 ## Get started
 1. Create a bootable install media `sudo /Applications/Install\ macOS\ Sonoma.app/Contents/Resources/createinstallmedia --volume /Volumes/SOME_USB_DRIVE`
 2. Download [MountEFI](https://github.com/corpnewt/MountEFI). Run the command to mount the EFI partition of the USB.
-3. Copy and paste the EFI folder from this repo to the EFI partition.
-4. Reboot to USB  
+3. Copy and paste the EFI folder from this repository to the EFI partition of your USB.
+4. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). Run the command and execute all steps to generate new Serial, ROM, MLB, UID.
+5. Reboot to USB, install macOS.
+6. After install copy the USBs EFI folder to the EFI partition of your SSD.
 
-## Not working (yet)
+## Not working
 
 - Fingerprint reader (not really needed)
 - Audio Jack
-- The Wifi chipset isn't supported by macOS
-
+- The XPS' Wifi chipset isn't supported by macOS
 
 ## Working
 
